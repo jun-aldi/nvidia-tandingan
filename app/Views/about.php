@@ -10,65 +10,60 @@
     </div>
 </div>
 
-<div class="container">
-    <center>
-        <p>NVIDIA’s support services are designed to meet the needs of both the consumer and enterprise customer, with multiple options to help ensure an exceptional customer experience. 
-
-Please select the appropriate option below to learn more.</p>
-    </center>
-
-</div>
-
 <div class="row">
-<div class="col">
-          <div class="card shadow-sm">
-			<img src="<?= base_url() ?>/assets/img/album-6.jpg" class="img-thumbnail" alt="">
-            <div class="card-body">
-			<h5 style="color: #76B900;"	>VICTORY MEASURED IN MILLISECONDS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-		<div class="col">
-          <div class="card shadow-sm">
-			<img src="<?= base_url() ?>/assets/img/album-2.jpg" class="img-thumbnail" alt="">
-            <div class="card-body">
-			<h5 style="color: #76B900;"	>VICTORY MEASURED IN MILLISECONDS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-		<div class="col">
-          <div class="card shadow-sm">
-			<img src="<?= base_url() ?>/assets/img/album-3.jpg" class="img-thumbnail" alt="">
-            <div class="card-body">
-			<h5 style="color: #76B900;"	>VICTORY MEASURED IN MILLISECONDS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
+
 </div>
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="<?= base_url() ?>/assets/img/album-6.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="<?= base_url() ?>/assets/img/album-1.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="<?= base_url() ?>/assets/img/album-5.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
 
 <?=$this->endSection()?>
 
